@@ -1,0 +1,158 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#myName {
+  font-size: 32 px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.topthreeparagraphs {
+  color: red;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://1bo9y82e76el2rf8ms1m5i0r-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/sunset-beach_MG_1962.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+#firstfav {
+  text-align: center;
+  color: pink;
+  font-size: 30px;
+  font-weight: 60;
+}
+
+#secondfav {
+  text-align: center;
+  color: lightblue;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#thirdfav {
+  text-align: center;
+  color: purple;
+  font-size: 40px;
+  font-weight: 40;
+}
+
+#forthfav {
+  text-align: center;
+  color: darkgreen;
+  font-size: 26px;
+  font-weight: 60;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+#quotes {
+  font-weight: bold;
+  text-align: center;
+}
+
+#firstquote {
+  font-family:verdana;
+  color: DarkCyan;
+  font-size: 26px;
+}
+
+#secondquote {
+  font-family:courier;
+  color: DodgerBlue;
+  font-size: 26px;
+}
+
+#thirdquote {
+  font-family:arial;
+  color: SlateBlue;
+  font-size: 26px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
